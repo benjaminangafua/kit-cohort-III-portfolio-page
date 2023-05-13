@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url(./pngtree-dark-green-cyan-paper-cut-minimalist-background-for-brochure-poster-banner-image_405384.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white; 
+    padding-right: 6rem;
+    padding-top: 2.5rem;
+}
+
+header nav {
+    display: flex;
+
+}
+
+.first-div {
+    padding: 2rem;
+    margin-left: 4rem;
+    font-style: normal;
+}
+
+nav div {
+    padding: 2rem;
+}
+
+nav div button {
+    width: 6rem;
+    height: 2rem;
+    margin-top: -0.8rem;
+    background-color: #9aebf9;
+    border-radius: 8px;
+}
+
+nav div button:hover {
+    background-color: #02283F;
+    color: white;
+}
+
+.second-div {
+    margin-left: 6rem;
+    margin-top: 10rem;
+    color: white;
+}
+
+.third-div {
+    font-size: 1.5rem;
+}
+
+.fourth-div {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.fifth-div button {
+    width: 6rem;
+    height: 2rem;
+    background-color: #9aebf9;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+footer {
+    color: white;
+    margin-top: 14.5rem;
+    margin-left: 1rem;
+    font-style: italic;
+}
