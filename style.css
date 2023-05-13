@@ -73,7 +73,32 @@ nav div button:hover {
 
 footer {
     color: white;
-    margin-top: 14.5rem;
+    margin-top: 13rem;
     margin-left: 1rem;
     font-style: italic;
+}
+
+.double-div {
+    display: flex;
+}
+
+.image-div {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+
+.image-div img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+
+.image-div h4:nth-child(2) {
+    margin-top: 22rem;
+    margin-left: 3rem;
+    color: white;
+    position: absolute;
 }
