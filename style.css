@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+header{
+    background: #000407;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000407;
+    padding: 5px 4%;
+    border-bottom: 1px solid #000407;
+    transition: all .45s ease ;
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    color: #F5F7F7;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0px 25px;
+    transition: all .45s ease;
+}
+nav a:hover{
+    color: #fb5607;
+}
+section{
+    padding: 150px 15% 120px;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    background: #F5F7F7;
+}
+.about-img img{
+    max-width: 530px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 10px 20px 20px #fb5607;
+
+}
+.about-text h2{
+    font-size: 3rem;
+    line-height: 1;
+}
+.about-text p{
+    color: #000407;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 4rem;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #fb5607;
+    border-radius: 5px;
+    color: #F5F7F7;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .45s ease;
+}
+.btn:hover{
+    transform: scale(0.9);
+}
+span{
+    color: #fb5607;
+}
+
+.man{
+    width: 260px;
+    height:280px; 
+    border: 1px solid #ccc; 
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #333333;
+    text-align: center;
+    box-shadow: 10px 20px 20px #fb5607;
+  }
+ 
+  .man:hover{
+      color: #fb5607;
+  }
+  img{
+      max-width: 100%;
+      height: auto;
+  
+  }
+  .boss{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .stu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer{
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #0c0f0a;
+    text-align: center;
+}
+.footer p{
+    color: whitesmoke;
+    margin: 5px auto;
+    padding: 20px auto;
+}
+  
