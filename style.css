@@ -9,7 +9,7 @@ body {
     background-image: url(./pngtree-dark-green-cyan-paper-cut-minimalist-background-for-brochure-poster-banner-image_405384.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
-
+    overflow: hidden;
 }
 
 header {
